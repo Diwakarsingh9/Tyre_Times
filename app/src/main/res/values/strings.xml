@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TyreTimes</string>
+    <string name="str_img1">Image1</string>
+    <string name="str_img2">Image2</string>
+    <string name="str_img3">Image3</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+</resources>

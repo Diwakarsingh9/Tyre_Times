@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:gravity="top|center"
+
+
+    >
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:id="@+id/gallerylayout">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/gallery"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="1dp"
+        android:background="@color/colorAccent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TYRES"
+            android:id="@+id/gallerytextcolor"
+            android:layout_marginTop="1dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="12dp"
+            android:typeface="serif" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/gallery2"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="1dp"
+        android:background="@color/colorAccent"
+        android:visibility="gone">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TYRES"
+            android:id="@+id/gallerytextgrey"
+            android:layout_marginTop="1dp"
+            android:textColor="@color/whitesec"
+            android:gravity="center"
+            android:textSize="12dp"
+            android:typeface="serif" />
+
+
+    </LinearLayout>
+</FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/newslayout">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/news"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="1dp"
+        android:background="@color/colorAccent"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RAW MATERIALS"
+            android:id="@+id/newstextcolor"
+            android:layout_marginTop="1dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:visibility="visible"
+            android:textStyle="bold"
+            android:textSize="11dp"
+            android:typeface="serif" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/news2"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="1dp"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RAW MATERIALS"
+            android:id="@+id/newstextgrey"
+            android:layout_marginTop="1dp"
+            android:textColor="@color/whitesec"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:visibility="visible"
+            android:textSize="11dp"
+            android:typeface="serif" />
+
+
+    </LinearLayout>
+</FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/calendarlayout">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:id="@+id/calendar"
+        android:gravity="center"
+        android:layout_marginBottom="1dp"
+        android:background="@color/colorAccent"
+        android:visibility="gone">
+
+        <me.grantland.widget.AutofitTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TECH"
+            android:id="@+id/calendartextcolor"
+            android:layout_marginTop="1dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:maxLines="1"
+
+            autofit:minTextSize="8sp"
+            android:gravity="center"
+            android:textSize="12dp"
+            android:typeface="serif" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:id="@+id/calendar2"
+        android:gravity="center"
+        android:layout_marginBottom="1dp"
+        android:background="@color/colorAccent">
+
+        <me.grantland.widget.AutofitTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TECH"
+            android:id="@+id/calendartextgrey"
+            android:layout_marginTop="1dp"
+            android:textColor="@color/whitesec"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:maxLines="1"
+
+            autofit:minTextSize="8sp"
+            android:gravity="center"
+            android:textSize="12dp"
+            android:typeface="serif" />
+
+
+    </LinearLayout>
+</FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/surveylayout">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/survey"
+        android:orientation="vertical"
+
+        android:gravity="center"
+        android:layout_marginBottom="1dp"
+        android:background="@color/colorAccent"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DIGI TRENDS"
+            android:id="@+id/surveytextcolor"
+            android:layout_marginTop="1dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="12dp"
+            android:typeface="serif" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/survey2"
+        android:orientation="vertical"
+
+        android:gravity="center"
+        android:layout_marginBottom="1dp"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DIGI TRENDS"
+            android:id="@+id/surveytextgrey"
+            android:layout_marginTop="1dp"
+            android:textColor="@color/whitesec"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="12dp"
+            android:typeface="serif" />
+
+    </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/morelayout">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/more"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="1dp"
+        android:background="@color/colorAccent"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VIDEOS"
+            android:id="@+id/moretextcolor"
+            android:layout_marginTop="1dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="12dp"
+            android:typeface="serif" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:id="@+id/more2"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="1dp"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VIDEOS"
+            android:id="@+id/moretextgrey"
+            android:layout_marginTop="1dp"
+            android:textColor="@color/whitesec"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="12dp"
+            android:typeface="serif" />
+
+    </LinearLayout>
+</FrameLayout>
+    <!--<View-->
+        <!--android:layout_width="1dp"-->
+        <!--android:layout_height="20dp"-->
+        <!--android:background="#ffffff"/>-->
+    <!--<FrameLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:id="@+id/Events"-->
+        <!--android:layout_marginTop="2dp">-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:id="@+id/events"-->
+            <!--android:orientation="vertical"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginBottom="1dp"-->
+            <!--android:background="#ffffff">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Events"-->
+                <!--android:id="@+id/eventtextcolor"-->
+                <!--android:layout_marginTop="1dp"-->
+                <!--android:textColor="#800000" />-->
+
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:id="@+id/events2"-->
+            <!--android:orientation="vertical"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginBottom="1dp"-->
+            <!--android:background="#ffffff">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Events"-->
+                <!--android:id="@+id/eventtextgrey"-->
+                <!--android:layout_marginTop="1dp"-->
+                <!--android:textColor="#7f8c8d" />-->
+
+        <!--</LinearLayout>-->
+    <!--</FrameLayout>-->
+</LinearLayout>

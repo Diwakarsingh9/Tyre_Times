@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:geekui="http://schemas.android.com/apk/res-auto"
+    tools:context="com.Apporio.it.fragments.BlankFragment"
+
+    android:id="@+id/ghghj"
+    android:orientation="vertical"
+    android:background="#000">
+    <!-- TODO: Update blank fragment layout -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:src="@drawable/wl"
+        android:layout_marginBottom="5dp"
+        android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:alpha="0.6"></LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Video will play in future (Under Development)"
+            android:id="@+id/textView6"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:gravity="center" />
+    </FrameLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <views.TypefaceTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Caption"
+        geekui:customTypeface="fonts/Time_Roman.ttf"
+        android:id="@+id/caption"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:padding="2dp" />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
